@@ -103,6 +103,107 @@ git clone https://github.com/cemreeyrtsvr/KutuphaneOtomasyonu.git
 5️⃣ Run the application 🚀
 
 ---
+---
+
+## 🔐 API Configuration (App.config)
+
+To run AI-powered features such as **book recommendations** and **analytics services**, you must provide your own API key.
+
+The project uses an external API integration configured via the **App.config** file.
+
+### 📌 Steps
+
+1️⃣ Open the `App.config` file in the project.
+
+2️⃣ Locate the API key section:
+
+```xml
+<appSettings>
+  <add key="ApiKey" value="******" />
+</appSettings>
+```
+
+3️⃣ Replace `******` with your own API key:
+
+```xml
+<appSettings>
+  <add key="ApiKey" value="YOUR_API_KEY_HERE" />
+</appSettings>
+```
+
+4️⃣ Save the file and rebuild the project.
+
+⚠️ **Security Note:**  
+Never share your API key publicly or upload it to GitHub repositories.
+
+---
+
+## 📊 Dashboard & Statistics Screenshots
+
+Below are static previews of the system’s analytics and reporting interface.
+
+These dashboards provide real-time insights into library operations.
+
+### 📈 General Statistics Panel
+
+- Total books
+- Total users
+- Daily borrow counts
+- Active transactions
+
+<p align="center">
+  <img src="screenshots/general_statistics.png" width="700"/>
+</p>
+
+---
+
+### 🥧 Genre Distribution Chart
+
+Displays book categories in a pie chart format.
+
+<p align="center">
+  <img src="screenshots/genre_distribution.png" width="700"/>
+</p>
+
+---
+
+### 📚 Most Borrowed Books
+
+Highlights top-performing books based on lending frequency.
+
+<p align="center">
+  <img src="screenshots/most_borrowed_books.png" width="700"/>
+</p>
+
+---
+
+### 👤 User Activity Dashboard
+
+Tracks borrowing activity per student/user.
+
+<p align="center">
+  <img src="screenshots/user_activity.png" width="700"/>
+</p>
+
+---
+
+## 🗂️ Screenshot Folder Structure
+
+Make sure your repo includes this folder:
+
+```
+screenshots/
+│
+├── general_statistics.png
+├── genre_distribution.png
+├── most_borrowed_books.png
+└── user_activity.png
+```
+
+You can rename images, but update README paths accordingly.
+
+---
+
 
 ## 🧠 Purpose
 
